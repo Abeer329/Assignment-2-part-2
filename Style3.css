@@ -1,0 +1,117 @@
+.logo img{
+    margin-top:10px;
+    margin-left:10px;
+     margin-bottom:10px;
+    position:absoulute;
+    width:1300px;
+    height: 450px;
+
+   
+}
+h3{
+    margin-top: 26px;
+	margin-bottom: 15px;
+	text-align: left;
+    color:rgb(255, 189, 57);
+}
+h2{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: left;
+    color:white;
+}
+
+p{
+text-shadow: 5px 5px 5px #000000;
+font-size: 25px;
+color: white;
+
+  text-shadow: 2px 2px 2px #000000;
+  padding: 20px 44px;
+}
+}
+#contact {
+    
+	margin-top: 32px;
+	margin-bottom: 16px;
+	text-align: center;
+	list-style-type: none;
+    width:100%;
+    display: flex;
+    
+
+
+}
+
+
+#contact li{
+display: inline-block;
+padding: 20px;
+
+
+}
+
+#contact a img{
+    
+    width:35px;
+	opacity: .6;
+	border-bottom:2px double rgb(255, 189, 57);
+	padding-bottom:9px;
+
+
+	-webkit-transition: all 0.5s ease-in-out, transform 0.7s ease; 
+	-moz-transition: all 0.5s ease-in-out, transform 0.7s ease; 
+	-o-transition: all 0.5s ease-in-out, transform 0.7s ease;
+	transition: all 0.5s ease-in-out, transform 0.7s ease;
+}
+
+#contact a:hover img, 
+#contact a:focus img{
+ width:40px;
+opacity: .2;
+border-bottom:2px rgb(255, 189, 57);
+transform: scale(2.0) ;
+
+}
+
+
+ul.abe{
+
+}
+ul.abe li{
+     display: flex;
+    justify-content:left;
+	margin-top: 33px;
+	margin-bottom: 20px;
+    float: left;
+	margin-right: 17px;
+	margin-left:  16px;
+	padding: 7px 7px 7px 7px;
+	border: 1px solid #333;
+	list-style: none;
+	background-color: rgb(255, 189, 57);
+}
+
+ul.abe img{
+    float: left;
+	width: 190px;
+	height: 190px;
+
+    -webkit-transition: -webkit-transform 0.4s ease;
+    -moz-transition: -moz-transform 0.4s ease;
+    transition: transform 0.4s ease;
+}
+
+ul.abe li a:hover img, a:focus img{
+    -webkit-transform:scale(1.4) translate(-10px, -10px) rotate(-4deg);
+    -moz-transform:scale(1.4) translate(-10px, -10px) rotate(-4deg);
+    -o-transform:scale(1.4) translate(-10px, -10px) rotate(-4deg);
+    transform:scale(1.4) translate(-10px, -10px) rotate(-4deg);
+    
+    -webkit-box-shadow:4px 4px 10px #cc3366;
+    -moz-box-shadow:4px 4px 10px #cc3366;
+    -o-box-shadow:4px 4px 10px #cc3366;
+    box-shadow:4px 4px 10px #cc3366;
+
+
+}
